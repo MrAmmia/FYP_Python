@@ -1,6 +1,6 @@
 # FYP Python Backend & Raspberry Pi Motion Detection System
 
-This repository contains the **Django backend** and **Raspberry Pi 3 motion detection circuit** code that works together with the [Android app](https://github.com/FYP_Android).
+This repository contains the **Django backend** and **Raspberry Pi 3 motion detection circuit** code that works together with the [Android app](https://github.com/MrAmmia/FYP_Android).
 
 - The **Django backend** serves as the server for handling requests, storing intrusion data, and providing real-time notifications.
 - The **Raspberry Pi 3** with a connected motion sensor detects intruders, captures images, and sends a 10-second video clip to the Django backend hosted on it.
@@ -48,7 +48,7 @@ This repository contains the **Django backend** and **Raspberry Pi 3 motion dete
    - Raspberry Pi Camera Module
 
 2. **Install Required Libraries**:
-   Follow steps detailed in this [report]()
+   Follow steps detailed in this [report](https://drive.google.com/file/d/1IwOLd_-q2-xBeFQMKTZ0ImCQV4o5IB-F/view?usp=sharing)
 
 ### Django Backend
 
@@ -74,3 +74,9 @@ This repository contains the **Django backend** and **Raspberry Pi 3 motion dete
 ## Integration with FYP Android
    - The Android app communicates with the Django backend to receive notifications, display captured images, and play 10-second video clips when motion is detected.
    - Additionally, it streams the live feed from the Raspberry Pi camera when requested.
+
+
+## Future Enhancements
+   - Two-way audio communication to allow interaction with the intruder.
+   - Integration with cloud storage for storing intrusion footage.
+   - Enhanced AI for more accurate intrusion detection.
